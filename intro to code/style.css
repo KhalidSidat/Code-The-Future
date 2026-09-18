@@ -1,0 +1,123 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  background-color: rgb(0, 38, 92);
+  color: white; 
+}
+
+.fontdiner-swanky-regular {
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Title_Snake { 
+  text-align: center;
+  font-size: 100px;
+  margin-top: 200px;
+  z-index: 2;
+  font-family: "Fontdiner Swanky";
+  color:#0fe01d
+ 
+}
+
+#Menu_Buttons { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  margin-top: -100px; 
+  gap: 40px;     
+}
+
+#Menu_Buttons button { 
+  font-size: 30px;
+  width: 320px;
+  height: auto;
+  background: #222;
+  color: #e81212;
+  border: 2.75px solid #90f109;
+  font-family: "Fontdiner Swanky"
+}
+#Menu_Buttons button:hover { 
+  color: #0fe01d;
+  cursor: pointer;
+}
+
+#Leaderboard { 
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 175px;
+  height: 300px;
+  background-color: #222222;
+  border: 3px solid #43f727;
+  color: #6aff00;
+  padding: 20px; 
+}
+
+#form {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  background-color: #222222;
+  border: 3px solid #43f727;
+  color: #6aff00;
+  padding: 20px; 
+}
+
+#login_button {
+    font-size: 30px;
+  width: 320px;
+  height: auto;
+  background: #222;
+  color: #e81212;
+  border: 2.75px solid #90f109;
+  font-family: "Fontdiner Swanky"
+}
+
+#Tree {
+  position: fixed;
+  bottom: -10px;
+  left: -40px;
+}
+
+#Pixel_Tree {
+  width: 500px;
+  height: auto;
+}
+
+#grass {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  background-color: #0fe01d;
+  color: #0fe01d;
+}
+
+#bush {
+  position: fixed;
+  bottom: -140px;
+  right: -40px;
+}
+
+#Pixel_Bush {
+  width: 500px;
+  height: auto;
+}
+
+#moon {
+  position: fixed;
+  top: -300px;
+  right: 200px;
+}
+
+#Pixel_Moon {
+  width: 500px;
+  height: auto;
+}
